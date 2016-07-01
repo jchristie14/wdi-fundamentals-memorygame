@@ -3,7 +3,15 @@ var cardTwo = "queen";
 var cardThree = "king";
 var cardFour = "king";
 
-if (cardOne === cardTwo) {
+var createBoard = function() {
+	for(var i=0; i<4; i++){
+		var playingCard = document.createElement('div');
+		playingCard.className = 'Card';
+		document.getElementById('game-board').appendChild(playingCard)
+	}
+}
+
+/* if (cardOne === cardTwo) {
 	alert("You found a match!")
 } else {
 	alert("Sorry, try again.")
@@ -17,4 +25,4 @@ if (cardThree === cardFour) {
 
 if (cardTwo === cardThree) {
 	alert("You found a match!")
-} else {alert ("Sorry, try again.")}
+} else {alert ("Sorry, try again.")} */
