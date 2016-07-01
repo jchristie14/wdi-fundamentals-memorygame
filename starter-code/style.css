@@ -13,7 +13,7 @@ h2 {
 	height: 80%;
 	width: 50%;
 }
-.card{
+img, .card{
 	height: 200px;
 	width: 150px;
 	border: 1px #000000 solid;
